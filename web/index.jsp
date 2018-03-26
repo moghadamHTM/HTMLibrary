@@ -14,7 +14,8 @@
   </head>
   <body>
   <%@include file="CommonIncludes/Header.jsp"%>
-  مدیریت اعضا کلوب
+
+  <a href="InsertMember.jsp">  مدیریت اعضا کلوب</a>
   <br><br><br><br><br><br><br><br>
   <%@include file="CommonIncludes/Footer.jsp"%>
   </body>
