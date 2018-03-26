@@ -13,6 +13,9 @@
     <title>Insert title here</title>
   </head>
   <body>
+  <%@include file="CommonIncludes/Header.jsp"%>
   مدیریت اعضا کلوب
+  <br><br><br><br><br><br><br><br>
+  <%@include file="CommonIncludes/Footer.jsp"%>
   </body>
 </html>
