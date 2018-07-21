@@ -12,8 +12,9 @@ public class Member {
     private String family;
     private String address;
     private String phone;
-    private int age;
+    private int agee;
     private Date memdate;
+private String mn;
 
 
     public String getMemberno() {
@@ -56,11 +57,11 @@ public class Member {
         this.phone = phone;
     }
 
-    public int getAge() {
+    public int getAgee() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAgee(int age) {
         this.age = age;
     }
 
@@ -80,7 +81,7 @@ public class Member {
                 ", family='" + family + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
-                ", age=" + age +
+                ", age=" + agee +
                 ", memdate=" + memdate +
                 '}';
     }
